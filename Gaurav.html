@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Code with gaurav</title>
+
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+
+        .city {
+            background-color: rgb(57, 65, 46);
+            color: aqua;
+            border: 2px solid blue;
+            margin: 20px;
+            padding: 20px;
+
+        }
+
+        #my {
+            background-color: blue;
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        p {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .list {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .box {
+            width: 50%;
+            float: left;
+        }
+
+        .shops {
+            width: 900px;
+            border: 1px solid rgb(97, 72, 72);
+            padding: 15px;
+            margin: auto;
+            background-color: aqua;
+
+        }
+
+        .item {
+            border: 2px solid rgb(70, 51, 70);
+            margin: 12px 3px;
+            background-color: rgb(136, 122, 122);
+        }
+
+        .uu {
+            border: 2px solid rgb(235, 64, 64);
+            background-color: bisque;
+            padding: 34px;
+            margin: 34px auto;
+            width: 60%;
+        }
+
+        body {
+            background-color: rgb(159, 170, 98);
+        }
+
+        .btn {
+            font-size: small;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid black;
+            background-color: rgb(175, 228, 30);
+            padding: 6px;
+            cursor: pointer;
+        }
+
+        a:hover {
+            color: rgb(216, 31, 133);
+            background-color: beige;
+        }
+
+        /* a:visited{
+            color:rgb(57, 27, 226);
+        }*/
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .navbar {
+            background-color: rgb(69, 145, 54);
+            overflow: auto;
+            border-radius: 10px;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 11px 18px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 10px 12px;
+            font-size: 12px;
+        }
+
+        .search {
+            float: right;
+            padding: 10px 12px;
+            margin: 12px 10px;
+        }
+
+        .navbar input {
+            border: 1px solid black;
+            border-radius: 3px;
+        }
+
+        .btan {
+            float: right;
+        }
+
+        img {
+            width: 400px;
+            padding: 14px 13px;
+        }
+
+        .imf {
+            border: 1px solid black;
+            margin: auto;
+            width: 40%;
+            background-color: antiquewhite;
+        }
+
+        .imf h3 {
+            padding: 12px 10px;
+            margin: 0px;
+        }
+
+        .new {
+            margin: auto;
+            width: 1200px;
+        }
+
+        .state {
+            border: 1px solid blue;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: 25%;
+            box-sizing: border-box;
+        }
+        .contain{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-gap:10px;
+            background-color: #2196F3;
+            padding: 10px;
+            width:50%;
+            margin:auto;
+        }
+        .itema{
+           border:1px solid black;
+            text-align: center;
+            padding: 10px 0;
+            font-size: 15px;
+        }
+        #r1{
+            grid-column: 1 / 4;
+
+        }
+      
+    </style>
+    <link rel="stylesheet" href="gaurav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Centere</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="search">
+                <input type="Search" id="search" name="search" placeholder="Search on website">
+            </div>
+        </nav>
+    </header><br><br><br>
+    <h2 id="my">This is the coding part of Web Development website </h2>
+    <p><a href="#c4">jump to options</a></p>
+    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Ea voluptatem, velit distinctio eaque
+        nobis numquam blanditiis dignissimos accusamus <em>repellendus</em>? Quidem, repellat ut distinctio eum
+        laudantium mollitia, amet dicta dolore quam in recusandae hic suscipit.</p>
+    <div class="list">
+        <div class="box">
+            <ul type="disk">
+                <li>This is first list</li>
+                <li>This is second list</li>
+                <li>this is third list</li>
+            </ul>
+        </div>
+        <div class="box">
+            <ol type="A">
+                <li>this is first list</li>
+                <li>this is second list</li>
+                <ol type="a">
+                    <li>Gaurav singh</li>
+                    <li>Gaurav singh</li>
+                    <li>Gaurav singh</li>
+                </ol>
+                <li>this is third list</li>
+                <li>this is fourth list</li>
+            </ol>
+        </div>
+    </div>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Mobile Number</th>
+        </tr>
+        <tr>
+            <td>Bill Gates</td>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>name</th>
+            <td>Mark Phillape</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+        </tr>
+    </table>
+    <br>
+    <form id="c4">
+        <label for="fname">Name: </label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="lname" id="lname" name="lname"><br><br>
+        <h3>Radio button</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">FeMale</label><br><br>
+        <h3>Checkbox</h3>
+        <h4>Please check your vehicle according to questions: </h4>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="car">
+        <label for=" vehicle1">CAR</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="bike">
+        <label for=" vehicle2">BIKE</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="cycle">
+        <label for=" vehicle3">cycle</label>
+        <h3>Selection button</h3>
+        <label for="cars">Choose a car:</label>
+        <select id="cars" name="cars">
+            <option value="volvo" selected>Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="Reset now">
+
+    </form>
+
+    <div class="city">
+        <h3> London</h3>
+        <p>This is a paragaraph 1</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque labore veritatis asperiores ullam est
+            sapiente eum deleniti sunt eius quaerat.</p>
+
+    </div>
+
+    <div class="shops">
+        <div id="f" class="item">
+            <h3>fruits</h3>
+            <p id="fri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur numquam ex explicabo debitis
+                aliquid quo aperiam, voluptatibus at? Magnam, aliquid dolore!</p>
+        </div>
+        <div id="v" class="item">
+            <h3>Vegetables</h3>
+            <p id="veg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi voluptatem fuga molestias quo
+                similique vel commodi minus incidunt cum, odit, obcaecati suscipit maxime sed.</p>
+        </div>
+        <div id="s" class="item">
+            <h3>Staionary</h3>
+            <p id="sta">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea nisi error maxime totam
+                exercitationem quibusdam vero! Quaerat beatae neque molestias! Recusandae?</p>
+        </div>
+    </div>
+    <div class="uu">
+        <h3>Gaurav Singh</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ad vel itaque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo reprehenderit nemo quidem cum ad debitis dolore
+            natus ratione temporibus, ipsum doloribus?<br><br>
+            <a href="https://www.google.com/" class="btn" target="_blank">Click to read more</a>
+            <button class="btn">Contact Us</button>
+        </p>
+    </div>
+    <div class="imf">
+        <a href="https://miro.medium.com/max/10000/0*wZAcNrIWFFjuJA78" target="_blank">
+            <img src="https://miro.medium.com/max/10000/0*wZAcNrIWFFjuJA78" alt="Batman"></a>
+        <h3>Gaurav's blog</h3>
+    </div>
+    <br>
+    <div class="new">
+        <div class="state">
+            <h4>Station</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora repellat error doloremque quod
+                vitae et animi? Harum sed, vel veritatis consequatur ducimus iure at, odit id ipsa quo ad.</p>
+        </div>
+        <div class="state">
+            <h4>Station</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora repellat error doloremque quod
+                vitae et animi? Harum sed, vel veritatis consequatur ducimus iure at, odit id ipsa quo ad.</p>
+        </div>
+        <div class="state">
+            <h4>Station</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus tempora repellat error doloremque quod
+                vitae et animi? Harum sed, vel veritatis consequatur ducimus iure at, odit id ipsa quo ad.</p>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="itema" id="r1">This is div 1</div>
+        <div class="itema" id="r2">This is div 2</div>
+        <div class="itema" id="r3">This is div 3</div>
+        <div class="itema" id="r4">This is div 4</div>
+        <div class="itema" id="r5">This is div 5</div>
+        <div class="itema" id="r6">This is div 6</div>
+        <div class="itema" id="r7">This is div 7</div>
+        <div class="itema" id="r8">This is div 8</div>
+        <div class="itema" id="r9">This is div 9</div>
+    </div>
+
+</body>
+
+</html>
